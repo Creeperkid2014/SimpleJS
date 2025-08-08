@@ -1,6 +1,7 @@
 {
   "name": "simplejs",
   "version": "1.0.0",
+  "description": "SimpleJS CLI tool to bootstrap simple JavaScript projects",
   "bin": {
     "simplejs": "./cli.js"
   },
@@ -9,5 +10,23 @@
     "ws": "^8.15.1"
   },
   "author": "YourName",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [
+    "simplejs",
+    "cli",
+    "javascript",
+    "starter",
+    "framework"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/simplejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/simplejs/issues"
+  },
+  "homepage": "https://github.com/yourusername/simplejs#readme"
 }
