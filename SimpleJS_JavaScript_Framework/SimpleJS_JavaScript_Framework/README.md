@@ -22,4 +22,3 @@ To run server.js you first need to get into that directory. This can be done by 
 
 **ws** - `npm instal ws`
 
-//Im gonna be working on the framework on firebase. If u need something tell me via discord - TheRealHaydynn
