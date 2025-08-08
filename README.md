@@ -1,24 +1,71 @@
 # SimpleJS
-An upcoming lightweight simple JavaScript framework designed to simplify JavaScript.
-We are determined to make JavaScript as easy as possible for developers. It'll also save a lot of time
+
+An upcoming lightweight simple JavaScript framework designed to simplify JavaScript.  
+We are determined to make JavaScript as easy as possible for developers. It'll also save a lot of time.
 
 ## Example
-`documenet.getElementById("myDiv");` is `doc.getId("myDiv");` in SimpleJS. 
 
+`document.getElementById("myDiv");` is simplified to `doc.getId("myDiv");` in SimpleJS.
+
+## WebGL Module
+
+SimpleJS also includes a powerful yet easy-to-use WebGL helper module for rendering shapes and managing WebGL resources with minimal code.
+
+### Features
+
+- Render points with customizable size and color  
+- Automatically handles canvas resizing for crisp graphics on all screens  
+- Easy shader compilation and program creation  
+- Utility functions for typed arrays and clearing the canvas  
+- Built-in WebGL support detection  
+
+### Basic Usage Example
+
+```js
+gl.MakeShape(
+  [0, 0, 0.5, 0.5, -0.5, -0.5], // vertices as [x1, y1, x2, y2, x3, y3]
+  {
+    pointSize: 10,
+    color: [0, 1, 0, 1],           // green points
+    clearColor: [0, 0, 0, 1],      // black background
+  }
+);
+```
+
+---
 
 ## Developers
-1. TheRealHaydynn
-2. AgentArk5
-3. SpaceNachos
+
+1. TheRealHaydynn  
+2. AgentArk5  
+3. SpaceNachos  
 
 ## Links
-**Discord:** https://discord.gg/wMxWYtfJzr
+
+**Discord:** [https://discord.gg/wMxWYtfJzr](https://discord.gg/wMxWYtfJzr)
 
 ## Server Help
-To run server.js you first need to get into that directory. This can be done by the bash command: `cd /server/server.js`. Once done, run `node server.js` into the terminal. A https server should start. And **Note to self:** the https server is a TEST server. It's purpose is to test the web socket of the client (main.js). Use it how you like. (Mabye not for malicious acts??)
 
-## Required Packages (If you don't get the ones already installed)
-**Node.js** - `npm install node.js`
+To run `server.js`, first navigate to its directory by running:  
+```bash
+cd /server
+```
 
-**ws** - `npm instal ws`
+Then start the server with:  
+```bash
+node server.js
+```
 
+This will start a **test HTTPS server** primarily used to test the WebSocket client (`main.js`). Use it responsibly and avoid malicious activities.
+
+---
+
+## Required Packages
+
+If not already installed, use these commands:
+
+- **Node.js** (make sure it's installed on your system)  
+- WebSocket package:  
+```bash
+npm install ws
+```
