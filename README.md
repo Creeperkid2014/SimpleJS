@@ -48,8 +48,8 @@ gl.MakeShape(
 
 To run `server.js`, first navigate to its directory by running:  
 ```bash
-cd /server
-```
+cd /server```
+
 
 Then start the server with:  
 ```bash
@@ -64,8 +64,31 @@ This will start a **test HTTPS server** primarily used to test the WebSocket cli
 
 If not already installed, use these commands:
 
-- **Node.js** (make sure it's installed on your system)  
+- **Node.js** (make sure it's installed on your system)
 - WebSocket package:  
 ```bash
 npm install ws
 ```
+## Install via NPM
+install:```npm install simplejs_javascript_framework```
+
+Import and use your package in your JavaScript code:
+
+In your project’s .js file, import your package:
+
+```const simplejs = require('simplejs_javascript_framework');```
+
+If it uses ES Modules:
+
+```import simplejs from 'simplejs_javascript_framework';```
+
+
+
+
+
+
+
+
+
+
+
