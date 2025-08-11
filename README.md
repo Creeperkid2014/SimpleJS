@@ -76,11 +76,11 @@ Import and use your package in your JavaScript code:
 
 In your project’s .js file, import your package:
 
-```const simplejs = require('simplejs_javascript_framework');```
+```const simplejs = require('simplejs-lite');```
 
 If it uses ES Modules:
 
-```import simplejs from 'simplejs_javascript_framework';```
+```import simplejs from 'simplejs-lite';```
 
 
 
