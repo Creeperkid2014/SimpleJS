@@ -42,7 +42,7 @@ gl.MakeShape(
 
 ## Links
 
-**Discord:** [https://discord.gg/wMxWYtfJzr](https://discord.gg/wMxWYtfJzr)
+**Youtube** https://www.youtube.com/@ThunderedStudios
 
 ## Server Help
 
