@@ -111,7 +111,7 @@ If not already installed, use these commands:
 npm install ws
 ```
 ## Install via NPM
-install:```npm install simplejs_javascript_framework```
+install:```npm install simplejs-lite@2.0.0```
 
 Import and use your package in your JavaScript code:
 
