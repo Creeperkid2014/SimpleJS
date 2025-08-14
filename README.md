@@ -59,6 +59,47 @@ node server.js
 This will start a **test HTTPS server** primarily used to test the WebSocket client (`main.js`). Use it responsibly and avoid malicious activities.
 
 ---
+## SimpleJS Backend Utility
+
+The SimpleJS backend utility provides easy event, database, port, and key-value store management for your apps.
+
+### Features
+- Event system: `on`, `emit`, `off`
+- Database management: `createDatabase`, `getDatabase`, `deleteDatabase`, `listDatabases`
+- Port management: `setPort`, `getPort`
+- Key-value store: `set`, `get`, `remove`, `clear`
+- Simulated async API: `api`
+
+### Example Usage
+```js
+// Create a database
+backend.createDatabase('users');
+backend.getDatabase('users');
+backend.listDatabases();
+
+// Set and get port
+backend.setPort(8080);
+console.log(backend.getPort());
+
+// Key-value store
+backend.set('token', 'abc123');
+console.log(backend.get('token'));
+backend.remove('token');
+backend.clear();
+
+// Event system
+backend.on('login', data => console.log('User logged in:', data));
+backend.emit('login', { user: 'Alice' });
+backend.off('login');
+
+// Simulate async API call
+backend.api('save', { user: 'Bob' }, response => {
+  console.log(response);
+});
+```
+
+
+
 
 ## Required Packages
 
