@@ -123,7 +123,10 @@ If it uses ES Modules:
 
 ```import simplejs from 'simplejs-lite';```
 
+## Contribution
+- This repo is open source so if you want to improve something, create a fork and a pull request.
 
+- since we dont have that many contributors, we are looking for people to help
 
 
 
